@@ -1,0 +1,77 @@
+/* src/components/ToDoList.css */
+
+.todo-list {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .clock {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .task-item span {
+    margin-right: 10px;
+  }
+  
+  .task-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .task-item button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  
+  
